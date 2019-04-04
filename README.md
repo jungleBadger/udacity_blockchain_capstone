@@ -72,3 +72,9 @@ Go to https://docs.opensea.io/docs/getting-started to see how it is done.
 * [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
+
+
+### References
+
+* [AJMachado's repository](https://github.com/ajmachado/Capstone-Real-Estate-Sale) 
+* [Udacity boilerplate](https://github.com/udacity/Blockchain-Capstone)
