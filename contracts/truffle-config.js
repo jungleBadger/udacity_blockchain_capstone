@@ -50,14 +50,12 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
      },
       rinkeby: {
-          provider: function () {
-              var wallet = new HDWalletProvider(MNEMONIC, ENDPOINT)
-              var nonceTracker = new NonceTrackerSubprovider()
-              wallet.engine._providers.unshift(nonceTracker)
-              nonceTracker.setEngine(wallet.engine)
-              return wallet
+          provider: function() {
+              return new HDWalletProvider(MNEMONIC, ENDPOINT)
           },
-          network_id: 4,
+          network_id: '4',
+          gas: 4500000,
+          gasPrice: 10000000000,
           // gas: 2000000,   // <--- Twice as much
           // gasPrice: 10000000000,
       }

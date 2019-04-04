@@ -1,56 +1,17 @@
-Migrations dry-run (simulation)
-===============================
-> Network name:    'rinkeby-fork'
-> Network id:      4
-> Block gas limit: 7178654
+PS C:\Users\danie\Downloads\Capstone-Real-Estate-Sale-master\Capstone-Real-Estate-Sale-master\contracts> truffle migrate --network rinkeby --reset
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Oraclize.sol...
+Compiling .\contracts\SolnSquareVerifier.sol...
+Compiling .\contracts\SquareVerifier.sol...
+Compiling .\contracts\ERC721Mintable.sol...
 
+Compilation warnings encountered:
 
-1_initial_migration.js
-======================
+/C/Users/danie/Downloads/Capstone-Real-Estate-Sale-master/Capstone-Real-Estate-Sale-master/contracts/contracts/Oraclize.sol:360:5: Warning: Function state mutability can be restricted to pure
+    function __callback(bytes32 _myid, string memory _result, bytes memory _proof) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
 
-   Replacing 'Migrations'
-   ----------------------
-   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.449875243000000009
-   > gas used:            258162
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000516324 ETH
-
-   -------------------------------------
-   > Total cost:         0.000516324 ETH
-
-
-2_deploy_contracts.js
-=====================
-
-   Replacing 'SquareVerifier'
-   --------------------------
-   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.446271063000000009
-   > gas used:            1775062
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.003550124 ETH
-
-
-   Replacing 'SolnSquareVerifier'
-   ------------------------------
-   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.438064953000000009
-   > gas used:            4103055
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00820611 ETH
-
-   -------------------------------------
-   > Total cost:         0.011756234 ETH
-
-
-Summary
-=======
-> Total deployments:   3
-> Final cost:          0.012272558 ETH
+Writing artifacts to .\build\contracts
 
 ⚠️  Important ⚠️
 If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
@@ -60,7 +21,7 @@ Starting migrations...
 ======================
 > Network name:    'rinkeby'
 > Network id:      4
-> Block gas limit: 7176368
+> Block gas limit: 7389937
 
 
 1_initial_migration.js
@@ -68,21 +29,21 @@ Starting migrations...
 
    Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0x13d3aa4cc9c95f7eabd0311d820f4379e26e9e003b776f3f1484465675c46c5e
-   > Blocks: 1            Seconds: 13
-   > contract address:    0x22F6c182BB550133f34098A48ABd935f09EC56F4
+   > transaction hash:    0xa84435fbbf4d62ca89b47ca638ff54cc73991a8c7bd851dcb102bd75cd9200ac
+   > Blocks: 0            Seconds: 5
+   > contract address:    0xEC20Aba8c7b97ecB338A537c3FdF34058FFCbFdf
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.444928327000000009
+   > balance:             16.192413011000000009
    > gas used:            273162
-   > gas price:           20 gwei
+   > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.00546324 ETH
+   > total cost:          0.00273162 ETH
 
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.00546324 ETH
+   > Total cost:          0.00273162 ETH
 
 
 2_deploy_contracts.js
@@ -90,39 +51,38 @@ Starting migrations...
 
    Replacing 'SquareVerifier'
    --------------------------
-   > transaction hash:    0x7f604ea5c1da99298f564a217c68e2a502d1f83ed142f3e9afcaa83de82d30e1
-   > Blocks: 0            Seconds: 9
-   > contract address:    0x0aaDbBb4bb926e6A78635D06fE43E8Caa2119d63
+   > transaction hash:    0x029d32925a6a2554ca6f3b2ff4885a7fba9e30f527a762563429b6fd175b3b14
+   > Blocks: 1            Seconds: 13
+   > contract address:    0x0aF2b6A69915a84E7E089c2348f7b62aCdEEAB58
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.408586527000000009
-   > gas used:            1775062
-   > gas price:           20 gwei
+   > balance:             16.174242751000000009
+   > gas used:            1774998
+   > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.03550124 ETH
+   > total cost:          0.01774998 ETH
 
 
    Replacing 'SolnSquareVerifier'
    ------------------------------
-   > transaction hash:    0x88bd1ba87e1122ca931dd097ebe886bbeded797959c0f22f208cabf541271596
+   > transaction hash:    0xdbb3b52830ea8e45b4381550158f48da0c0c642e9f3bffe4fcd143d31315c37d
    > Blocks: 0            Seconds: 9
-   > contract address:    0x189d29720621D4870F33c62E49357FF0ddE81a86
+   > contract address:    0xd63d444D37BF1fE8a4af9a6bFa8Dac96f377a363
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             1.323321427000000009
-   > gas used:            4263255
-   > gas price:           20 gwei
+   > balance:             16.131762801000000009
+   > gas used:            4247995
+   > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.0852651 ETH
+   > total cost:          0.04247995 ETH
 
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.12076634 ETH
+   > Total cost:          0.06022993 ETH
 
 
 Summary
 =======
 > Total deployments:   3
-> Final cost:          0.12622958 ETH
+> Final cost:          0.06296155 ETH
 
-PS C:\Users\danie\Downloads\Capstone-Real-Estate-Sale-master\Capstone-Real-Estate-Sale-master\contracts>
