@@ -11,20 +11,11 @@ const INFURA_KEY = config.INFURA_KEY
 let NFT_CONTRACT_ADDRESS = config.CONTRACT_ADDRESS
 let OWNER_ADDRESS = config.OWNER_ADDRESS
 const NETWORK = config.NETWORK
-const NUM_TOKENS = 10
+const NUM_TOKENS = 1
 const proof = [
     require('./zokrates/code/square/proof'),
-    require('./zokrates/code/square/proof_1'),
-    require('./zokrates/code/square/proof_2'),
-    require('./zokrates/code/square/proof_3'),
-    require('./zokrates/code/square/proof_4'),
-    require('./zokrates/code/square/proof_5'),
-    require('./zokrates/code/square/proof_6'),
-    require('./zokrates/code/square/proof_7'),
-    require('./zokrates/code/square/proof_8'),
-    require('./zokrates/code/square/proof_9'),
     ];
-const CONTRACT_FILE = require('./eth-contracts/build/contracts/SolnSquareVerifier');
+const CONTRACT_FILE = require('./contracts/build/contracts/SolnSquareVerifier');
 const NFT_ABI = CONTRACT_FILE.abi;
 
 if (!MNEMONIC || !INFURA_KEY || !OWNER_ADDRESS || !NETWORK) {

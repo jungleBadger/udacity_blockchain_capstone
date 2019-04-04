@@ -46,9 +46,10 @@ In a terminal window run :
 `truffle migrate --network rinkeby`
 
 OpenSea Link : https://rinkeby.opensea.io/category/realestatetitle
-contract address:    0x4bC08D34a60b22e11ce8c2CfA731C429cfE07228
-account address:     0x02dF304af8587597784d423bEC372cF51B9b739D
-contract ABI: /eth-contracts/build/contracts/SolnSquareVerifier.json
+contract address:    0x189d29720621D4870F33c62E49357FF0ddE81a86
+account address:     0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+contract ABI: /contracts/build/contracts/SolnSquareVerifier.json
+Minted Token. Transaction: 0x247862b815f7015e677e8209c418a4daacd511bc81964a4175da05f4dbd00d4b
 
 ### Mint Tokens
 

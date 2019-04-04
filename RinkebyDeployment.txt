@@ -2,7 +2,7 @@ Migrations dry-run (simulation)
 ===============================
 > Network name:    'rinkeby-fork'
 > Network id:      4
-> Block gas limit: 7006834
+> Block gas limit: 7178654
 
 
 1_initial_migration.js
@@ -11,7 +11,7 @@ Migrations dry-run (simulation)
    Replacing 'Migrations'
    ----------------------
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.724935125000000009
+   > balance:             1.449875243000000009
    > gas used:            258162
    > gas price:           2 gwei
    > value sent:          0 ETH
@@ -27,7 +27,7 @@ Migrations dry-run (simulation)
    Replacing 'SquareVerifier'
    --------------------------
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.721330945000000009
+   > balance:             1.446271063000000009
    > gas used:            1775062
    > gas price:           2 gwei
    > value sent:          0 ETH
@@ -37,20 +37,20 @@ Migrations dry-run (simulation)
    Replacing 'SolnSquareVerifier'
    ------------------------------
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.713125347000000009
-   > gas used:            4102799
+   > balance:             1.438064953000000009
+   > gas used:            4103055
    > gas price:           2 gwei
    > value sent:          0 ETH
-   > total cost:          0.008205598 ETH
+   > total cost:          0.00820611 ETH
 
    -------------------------------------
-   > Total cost:         0.011755722 ETH
+   > Total cost:         0.011756234 ETH
 
 
 Summary
 =======
 > Total deployments:   3
-> Final cost:          0.012272046 ETH
+> Final cost:          0.012272558 ETH
 
 ⚠️  Important ⚠️
 If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
@@ -60,7 +60,7 @@ Starting migrations...
 ======================
 > Network name:    'rinkeby'
 > Network id:      4
-> Block gas limit: 7000000
+> Block gas limit: 7176368
 
 
 1_initial_migration.js
@@ -68,11 +68,11 @@ Starting migrations...
 
    Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0x6c2a6fca52eaaa93b7492a5ce20beddefed991ab39c834542b68f6c838a87e3c
-   > Blocks: 0            Seconds: 9
-   > contract address:    0xC9599a2176695F658311A2fAE6716f113B9C4564
+   > transaction hash:    0x13d3aa4cc9c95f7eabd0311d820f4379e26e9e003b776f3f1484465675c46c5e
+   > Blocks: 1            Seconds: 13
+   > contract address:    0x22F6c182BB550133f34098A48ABd935f09EC56F4
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.719988209000000009
+   > balance:             1.444928327000000009
    > gas used:            273162
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -90,11 +90,11 @@ Starting migrations...
 
    Replacing 'SquareVerifier'
    --------------------------
-   > transaction hash:    0x8f4de3a16040a1a3837c6e4bd8931f8e16a92dbb4ced65ce81d18ead77c7af2f
+   > transaction hash:    0x7f604ea5c1da99298f564a217c68e2a502d1f83ed142f3e9afcaa83de82d30e1
    > Blocks: 0            Seconds: 9
-   > contract address:    0x7c3339D49D80BDa7FF77De213605C88DC7512136
+   > contract address:    0x0aaDbBb4bb926e6A78635D06fE43E8Caa2119d63
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.683646409000000009
+   > balance:             1.408586527000000009
    > gas used:            1775062
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -103,25 +103,26 @@ Starting migrations...
 
    Replacing 'SolnSquareVerifier'
    ------------------------------
-   > transaction hash:    0xb6fd4660ab4eb0e043b4998db89eca5ecba26e822f4b696b5f1297599bff6cf7
+   > transaction hash:    0x88bd1ba87e1122ca931dd097ebe886bbeded797959c0f22f208cabf541271596
    > Blocks: 0            Seconds: 9
-   > contract address:    0x1C2b26c511fC44357Daf4E1Ee1e2a88FC37b9Ef2
+   > contract address:    0x189d29720621D4870F33c62E49357FF0ddE81a86
    > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
-   > balance:             2.598386429000000009
-   > gas used:            4262999
+   > balance:             1.323321427000000009
+   > gas used:            4263255
    > gas price:           20 gwei
    > value sent:          0 ETH
-   > total cost:          0.08525998 ETH
+   > total cost:          0.0852651 ETH
 
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.12076122 ETH
+   > Total cost:          0.12076634 ETH
 
 
 Summary
 =======
 > Total deployments:   3
-> Final cost:          0.12622446 ETH
+> Final cost:          0.12622958 ETH
 
+PS C:\Users\danie\Downloads\Capstone-Real-Estate-Sale-master\Capstone-Real-Estate-Sale-master\contracts>
