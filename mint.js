@@ -11,8 +11,17 @@ const INFURA_KEY = config.INFURA_KEY
 let NFT_CONTRACT_ADDRESS = config.CONTRACT_ADDRESS
 let OWNER_ADDRESS = config.OWNER_ADDRESS
 const NETWORK = config.NETWORK
-const NUM_TOKENS = 1
+const NUM_TOKENS = 10
 const proof = [
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
+    require('./zokrates/code/square/proof'),
     require('./zokrates/code/square/proof'),
     ];
 const CONTRACT_FILE = require('./contracts/build/contracts/SolnSquareVerifier');

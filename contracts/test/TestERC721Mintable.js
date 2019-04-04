@@ -1,7 +1,7 @@
 var SquareVerifier = artifacts.require('SquareVerifier');
-var ERC721MintableComplete = artifacts.require('SolnSquareVerifier');
+// var ERC721MintableComplete = artifacts.require('ERC721Mintable');
 //var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');
-//var ERC721MintableComplete = artifacts.require('CustomERC721Token');
+var ERC721MintableComplete = artifacts.require('CustomERC721Token');
 let proof = require("../../zokrates/code/square/proof");
 
 contract('TestERC721Mintable', accounts => {
@@ -16,17 +16,7 @@ contract('TestERC721Mintable', accounts => {
             this.contract = await ERC721MintableComplete.new(verifierContract.address, {from: account_one});
 
             // TODO: mint multiple tokens
-            await this.contract.mintVerified(account_two, 1, 
-                    proof.proof.A, 
-                    proof.proof.A_p, 
-                    proof.proof.B, 
-                    proof.proof.B_p, 
-                    proof.proof.C, 
-                    proof.proof.C_p, 
-                    proof.proof.H, 
-                    proof.proof.K, 
-                    proof.input,
-                    {from: account_one});
+            await this.contract.mint(account_two, 1, {from: account_one});
 
             
         })
